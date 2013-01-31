@@ -11,7 +11,10 @@ Currently this app can:
 
 I had hoped to add more features to the app and release it but I never found the time to finish it. It's been sitting here doing nothing for about 6 months so I though I might as well chuck it on Github :P
 
+Download: [PicSync.apk](https://dl.dropbox.com/u/7566248/PicSync.apk)
+
 Building 
 ========
 
 Before you can build this app in Eclipse you must import the ActionBarSherlock & Google Play Services Library Projects
+

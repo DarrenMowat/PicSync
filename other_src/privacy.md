@@ -13,7 +13,7 @@
 * Any files from your Google Drive - Files are uploaded straight from your device and do not pass through any of our servers. 
 
 ### Security
-Security is an issue we take very seriously. All connections between this app and the Google Drive API are over https. Connections to the free trial servers are also over https. Your email address is only ever exchanged with the trial servers once to get a unique api token. On further communication with the trial servers your account will be identified with the api token.
+Security is an issue we take very seriously. All connections between this app and the Google Drive API are over https. 
 
 ### Changes to Privacy Policy
 

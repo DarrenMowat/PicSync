@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_category_account" >
+        <Preference android:key="manageAccount" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_status" >
+        <Preference
+            android:key="pending"
+            android:title="@string/pref_title_upload_status_uploads_finished" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="wifiOnly"
+            android:summary="@string/pref_summary_settings_wifi_only"
+            android:title="@string/pref_title_settings_wifi_only" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="chargingOnly"
+            android:summary="@string/pref_summary_settings_charging_only"
+            android:title="@string/pref_title_settings_charging_only" />
+
+        <Preference
+            android:key="rename"
+            android:summary="@string/pref_summary_settings_rename_uploads_folder"
+            android:title="@string/pref_title_settings_rename_uploads_folder" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_other" >
+        <Preference
+            android:enabled="false"
+            android:key="about"
+            android:summary=""
+            android:title="@string/pref_title_others_version" />
+        <Preference
+            android:key="darrenmowat"
+            android:summary=""
+            android:title="@string/pref_title_others_darrenmowat" />
+        <Preference
+            android:key="terms"
+            android:title="@string/pref_title_others_terms" />
+        <Preference
+            android:key="privacy"
+            android:title="@string/pref_title_others_privacy" />
+        <Preference
+            android:key="feedback"
+            android:summary="@string/pref_summary_others_feedback"
+            android:title="@string/pref_title_others_feedback" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

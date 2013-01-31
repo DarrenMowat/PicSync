@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <item
+        android:id="@+id/menu_auth_terms"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/pref_title_others_terms"/>
+    <item
+        android:id="@+id/menu_auth_privacy"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/pref_title_others_privacy"/>
+
+</menu>
